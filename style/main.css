@@ -1,0 +1,291 @@
+@import "bar.css";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1F2025;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.fa{
+    color: #fff;
+}
+.fa:hover{
+    color:#2e9cfd;
+}
+/*============================ Sidebar ============================*/
+.sidebar{
+    top: 0;
+    bottom: 0;
+    float: left;
+    position: fixed;
+    background-color: #1F2025;
+    border-right-color: #fff;
+}
+.sidebar img{
+    padding: 5px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+}
+.sidebar button{
+    padding: 5px;
+    margin-top: 10px;
+    display:flex;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+}
+.sidebar .sitting-btn{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.sidebar button:hover{
+    color: #2e9cfd;
+    border-right-color: #2e9cfd;
+}
+/*============================ Top Bar ============================*/
+.heading-1{
+    width: auto;
+    padding: 10px 50px ;
+}
+.user-details{
+    right: 0;
+    float: right;
+    margin-bottom: 5px;
+}
+.user-details p{
+    top: 0;
+    right: 10px;
+    position:absolute;
+}
+.user-details #serach{
+    margin-top: 25px;
+}
+
+.user-details img{
+    height: 30px;
+    border-radius: 50px;
+}
+.user-details button{
+    margin-right: 10px;
+    padding: 2px 10px;
+    color: #fff;
+    background-color: #2e9cfd;
+    border-color: transparent;
+    border-radius: 2px;
+    outline: none;
+}
+.user-details input{
+    margin-left: 5px;
+    padding: 5px;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    font-style:unset;
+    outline: none;
+}
+
+/*============================ Total/AVG Appliction section ============================*/
+
+.avg-data{
+    margin-left: 30px;
+}
+.avg-card{
+    border-radius: 10px;
+    margin: 10px;
+    padding-bottom: 30px;
+}
+.avg-card p{
+    font-size: 10px;
+    font-weight: 700;
+}
+.avg-card #avg-menu{
+    top: 5px;
+    right: 5px;
+    float: right;
+}
+.avg-card-two{
+    border-radius: 10px;
+}
+.avg-card-2{
+    right: 0;
+    border: 0;
+    background-color: #2e9cfd;
+}
+ .avg-card-two .avg-card-2{
+    margin-right: -10px;
+    margin-bottom: -10px;
+ }
+/*============================right bar User data section ============================*/
+.user_data{
+    top: 60px;
+    right: 5px;
+    position:absolute;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 24%;
+}
+.user_data p{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+.user_data .right_bar{
+    padding: 1px;
+    margin: -15px;
+    height: 30px;
+    width: 30px;
+    background-color: #2c2d32;
+    border-radius: 30px;  
+}
+.user_data .right_bar button{
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+}
+.user_data img{
+    width: 150px;
+    height: 150px;
+}
+.user_content{
+    padding-top: 15px;
+    margin: -8px;
+    background-color: #2c2d32;
+    border-radius: 30px 30px 0 0;  
+}
+.user_content button{
+    float: right;
+    margin-left: 5px;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+}
+.user_content #user_p{
+    display: inline;
+}
+
+#user_p button{
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+}
+.user_content .mes_call_btn button{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #3e4153;
+    border-color: transparent;
+    outline: none;
+}
+/*============================ Application Recived graph section ============================*/
+.App-rec-graph{
+    padding: 10px;
+    margin-left: 30px;
+}
+.App-rec-graph p{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    word-spacing: 20px;
+}    
+
+.App-rec-graph-style{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+} 
+.App_by_range{
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.App_by_range p{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.App_by_range progress{
+    float: right;
+    margin-right: 5px;
+}
+
+.App_by_range, .total_range_1, #file1{
+    color: #aed3ef;
+}
+.App_by_range, .total_range_2, #file2{
+    color: #fd5554;
+}
+.App_by_range, .total_range_3,#file3{
+    color: #2e9cfd;
+}
+.App_by_range, .total_range_4, #file4{
+    color: #d3bfde;
+}
+.App_by_range, .total_range_5, #file5{
+    color: #907cd2;
+}
+
+/*============================ Referals and Campaign Stats section ============================*/
+
+.Ref_Cam_St{
+    margin-left: 40px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.Ref_Cam_St p{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
+.Ref_Cam_St_content{
+    text-align: center;
+}
+
+.Ref_Cam_St_btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.Ref_Cam_St_btn .btn_1{
+    padding: 10px;
+    background-color: #2e9cfd;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    outline: none;
+}
+.Ref_Cam_St_btn .btn_2{
+    padding: 10px;
+    background-color: #fd5554;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    outline: none;
+}
+/*open_posstion_graph setion*/
+.open_posstion_graph{
+    border-radius: 10px;
+    padding: 5px;
+}
+.open_posstion_graph p{
+    font-size: 10px;
+    font-weight: 700;
+}
+#avg-menu{
+    top: 5px;
+    right: 5px;
+    float: right;
+}    
+#donutchart{
+    padding: 0;
+    margin: 0;
+    width: 400px; 
+    height: 200px;
+}

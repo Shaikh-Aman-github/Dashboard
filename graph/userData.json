@@ -1,0 +1,34 @@
+{
+  "NewUser": [
+    {
+      "name": "Rosie Metts",
+      "status": "Applied for",
+      "position": "ios Developer"
+    },
+    {
+      "name": "James Scott",
+      "status": "Applied for",
+      "position": "Node js Developer"
+    },
+    {
+      "name": "Jamie Laurenson",
+      "status": "Applied for",
+      "position": "ios Developer"
+    },
+    {
+      "name": "Elizabeth Hurton",
+      "status": "Applied for",
+      "position": "UX UI Desiner"
+    },
+    {
+      "name": "Danny Watson",
+      "status": "Applied for",
+      "position": "ios Developer"
+    },
+    {
+      "name": "Reha Scarlett",
+      "status": "Applied for",
+      "position": "ios Developer"
+    }
+  ]
+}

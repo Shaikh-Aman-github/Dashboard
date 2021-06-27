@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://use.fontawesome.com/1c9c885870.js"></script>
+    <link rel="stylesheet" href="./style/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/bootstrap/bootstrap-grid.css">
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <!--sidebar-->
+    <section>
+        <nav class="sidebar">
+            <img src="./assets/Logo.png" alt="logo">
+
+            <button><i class="fa fa-home" aria-hidden="true" style="color:#2e9cfd"></i></button>
+            <button><i class="fa fa-bar-chart" aria-hidden="true"></i></button>
+            <button><i class="fa fa-briefcase" aria-hidden="true"></i></button>
+            <button><i class="fa fa-folder" aria-hidden="true"></i></button>
+            <button><i class="fa fa-calendar-check-o" aria-hidden="true"></i></button>
+            <button><i class="fa fa-users" aria-hidden="true"></i></button>
+            <button><i class="fa fa-commenting" aria-hidden="true"></i></button>
+            <button><i class="fa fa-sign-out" aria-hidden="true"></i></button>
+            <button class="sitting-btn"><i class="fa fa-cog" aria-hidden="true"></i></button>
+        </nav>
+    </section>
+    <!--top bar-->
+    <section>
+        <div class="row">
+            <div class="col heading-1">
+                <h4>Dashboard<br/><h6>Monday,<b style="color: #277fc9">02 July 2020</b></h6></h4>
+            </div>
+            <div class="col">
+                <div class="user-details">
+                    <p><i class="fa fa-bell" aria-hidden="true"></i> <b>John Bayer</b> <img src="./assets/user.png" alt="user_logo"> <i class="fa fa-caret-down" aria-hidden="true"></i></p>
+                    <p id="serach"><button>+ Add</button><i class="fa fa-search" aria-hidden="true"></i><input type="text" placeholder="Scarch for Application here"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Total/AVG Appliction section-->
+    <section>
+        <div class="avg-data">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card-body border border-secondary avg-card">
+                        <p>Total Applictions <i class="fa fa-ellipsis-h" id="avg-menu" aria-hidden="true"></i></p>
+                        <h5>7956</h5>
+                        <i class="fa fa-long-arrow-up" style="color: #907cd2;" aria-hidden="true"></i><label style="color: #907cd2;">+3.59%</label>
+                        <div class="progress blue"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
+                            <div class="progress-value">+70%</div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="avg-card-two border border-secondary">
+                        <div class="card-body  avg-card avg-card-2">
+                            <p>Shortlisted Candidates <i class="fa fa-ellipsis-h" id="avg-menu" aria-hidden="true"></i></p>
+                            <h5>4658</h5>
+                            <i class="fa fa-long-arrow-up" aria-hidden="true"></i><label style="color: #fff;">+06%</label>
+                            <div class="progress yellow"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
+                                <div class="progress-value">+60%</div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-3">
+                    <div class="card-body border border-secondary avg-card">
+                        <p>Total Applictions <i class="fa fa-ellipsis-h" id="avg-menu" aria-hidden="true"></i></p>
+                        <h5>1501</h5>
+                        <i class="fa fa-long-arrow-down" style="color: #fd5554;" aria-hidden="true"></i><label style="color: #fd5554;">-04%</label>
+                        <div class="progress red"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
+                            <div class="progress-value">-40%</div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--right bar User data section -->
+<section>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="user_data border border-secondary">
+                <p>Hello John Bayer,<br>You Have new Aplication Today!</p>
+                <div class="right_bar">
+                    <button><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+                <img src="./assets/user_data_icon.JPG" alt="User icon">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="user_content">
+                             <p>New Applications<button><i class="fa fa-chevron-right" aria-hidden="true"></i></button></p>
+                            <div class="row">
+                                <div class="col">
+                                    <p id="user_p"><button><i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i></button><h6>Rosie Metts</h6><span>Applied for</span> <label style="color: #277fc9; font-size: 10px; margin-left: 2px;">ios Developer</label></p>
+                                </div>
+                                <div class="col">
+                                    <div class="mes_call_btn">
+                                        <button><i class="fa fa-commenting" aria-hidden="true"></i></button>
+                                        <button><i class="fa fa-phone-square" aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Application Recived graph section-->
+<section>
+    <div class="App-rec-graph">
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Application_Received This_Year This_Week  Today <i class="fa fa-folder-open" aria-hidden="true"></i>_Download_Report <i class="fa fa-ellipsis-v" aria-hidden="true"></i></p>
+                <div id="curve_chart" class="App-rec-graph-style border border-secondary"></div>
+            </div>
+            <div class="col-lg-3">
+               <div class="App_by_range border border-secondary">
+                   <p>Total Applications</p>
+                   <ul>
+                       <li class="total_range_1">Application <progress id="file1" value="40" max="100"></progress></li>
+                       <li class="total_range_2">Shortlisted <progress id="file2" value="80" max="100"></progress></li>
+                       <li class="total_range_3">Rejected <progress id="file3" value="30" max="100"></progress></li>
+                       <li class="total_range_4">ON hold <progress id="file4" value="10" max="100"></progress></li>
+                       <li class="total_range_5">Finished <progress id="file5" value="90" max="100"></progress></li>
+                   </ul>
+               </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Referals and Campaign Stats section-->
+<section>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="Ref_Cam_St border border-secondary">
+                <p>Referals and Campaign Stats</p>
+                <p class="Ref_Cam_St_data" style="color: #fd5554;"><i class="fa fa-paper-plane" style="color: #fd5554;" aria-hidden="true"></i> 40 Campaigns sent in total </p>
+                <p class="Ref_Cam_St_data">4 Campaigns sent in last month</p>
+                
+                <div class="Ref_Cam_St_content">
+                    <div class="row">
+                        <div class="col-3 border-end">
+                            <p>User's Reached</p>
+                            <i class="fa fa-long-arrow-up" style="color: #277fc9;" aria-hidden="true"></i><label style="color: #277fc9;">+06%</label>
+                            <h5>7956</h5>
+                        </div>
+                        <div class="col-3 border-end">
+                            <p>Referals</p>
+                            <i class="fa fa-long-arrow-up" style="color: #277fc9;" aria-hidden="true"></i><label style="color: #277fc9;">+9.01%</label>
+                            <h5>0662</h5>
+                        </div>
+                        <div class="col-3 border-end">
+                            <p>Shares</p>
+                            <i class="fa fa-long-arrow-up" style="color: #277fc9;" aria-hidden="true"></i><label style="color: #277fc9;">+39.18%</label>
+                            <h5>1478</h5>
+                        </div>
+                        <div class="col-3">
+                            <p>Applications</p>
+                            <i class="fa fa-long-arrow-up" style="color: #277fc9;" aria-hidden="true"></i><label style="color: #277fc9;">+12.00%</label>
+                            <h5>0564</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="Ref_Cam_St_btn">
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="button" class="btn btn_1">Start a New Campaign now</button>
+                            <button type="button" class="btn btn_2">Pause All Running Campaigns</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="open_posstion_graph border border-secondary">
+                <p>Open Positions By Department <i class="fa fa-ellipsis-h" id="avg-menu" aria-hidden="true"></i></p>
+                <div id="donutchart"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="./graph/opne_app_graph.js"></script>
+<script src="./graph/App_rec_graph.js"></script>
+
+</body>
+</html>
